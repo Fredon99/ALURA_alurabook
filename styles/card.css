@@ -25,6 +25,7 @@
 .card__descricao__titulo {
     color: var(--laranja);
     font-weight: 700;
+    padding-right: 3em;
 }
 
 .card__descricao__titulo__livro {
@@ -32,6 +33,7 @@
     font-size: 18px;
     font-weight: 700;
     margin: 0.5em 0;
+    padding-right: 3em;
 }
 
 .card__descricao__titulo__autora {
@@ -39,10 +41,12 @@
     font-size: 18px;
     font-weight: 700;
     margin: 1em 0;
+    padding-right: 3em;
 }
 
 .card__descricao__texto {
     font-size: 14px;
+    padding-right: 3em;
 }
 
 .botoes__item {
@@ -56,4 +60,12 @@
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .card {
+        width: 40%;
+        margin: 2em auto;
+    }
 }
