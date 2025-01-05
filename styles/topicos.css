@@ -22,7 +22,7 @@
 
 .topicos__link {
     color: var(--branco);
-    padding: 1em;
+    padding: 0.5em;
     background-color: var(--laranja);
     text-decoration: none;
     border-radius: 5px;
